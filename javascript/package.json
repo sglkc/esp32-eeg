@@ -1,0 +1,14 @@
+{
+	"main": "reader.mjs",
+	"type": "module",
+	"scripts": {
+		"start": "node reader.mjs"
+	},
+	"dependencies": {
+		"@serialport/parser-byte-length": "^13.0.0",
+		"@serialport/stream": "^13.0.0",
+		"@types/node": "^22.10.1",
+		"serialport": "^12.0.0",
+		"socket.io-client": "^4.8.1"
+	}
+}
